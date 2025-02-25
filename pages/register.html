@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterPage</title>
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/register.css">
+</head>
+<body>
+    <div class="container">
+    <div class="register-container">
+        <h2>Please Register Here</h2>
+        <form id="sign-up" action="../pages/home.html">
+            <input type="text" id="name" name="firstname" placeholder="Full Name" required>
+            <input type="text" id="email" name="email" placeholder="Enter Email" required>
+            <input type="password" id="create-password" name="create-password" placeholder="New Password" required>
+            <input type="password"id="confirm-password"  name="confirm-password" placeholder="Re-enterPassword" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p><a href="../pages/home.html">Back to Home</a></p>
+        </div>
+        <!-- Right Side: Image -->
+        <div class="image-container">
+            <img src="../images/back4.jpg" alt="Login Image">
+        </div>
+    </div>
+    <script src="../js/validation.js"></script>
+</body>
+</html>

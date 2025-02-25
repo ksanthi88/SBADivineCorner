@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote - Divine Corner</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+ 
+    <header>
+        <div class="header-content">
+            <h1>DIVINE CORNER</h1>
+            <p>We Custom Build Your Pooja Mandir in USA</p>
+            <p>(999-050-9789)</p>
+        </div>
+    </header>
+    <!-- Navigation Bar -->
+ <nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="../pages/home.html">HOME</a></li>
+        <li><a href="../pages/product.html">PRODUCTS</a></li>
+        <li><a href="../pages/cart.html">CART</a></li>
+        <li><a href="../pages/login.html">LOGIN</a></li>
+    </ul>
+</nav>
+
+    <div class="container">
+        <!-- Left Side: Business Info -->
+        <div class="business-info">
+            <h2>DIVINE CORNER</h2>
+            <p>📞 +1 (999) 050-9789</p>
+            <p>📧 <a href="mailto:sales@divinecorner.com">sales@divinecorner.com</a></p>
+
+            <h3>Business Hours</h3>
+            <p>Tuesday to Saturday: 11am - 5pm EST</p>
+            <p>Sunday - Closed</p>
+            <p>Monday - Closed</p>
+
+            <p class="highlight">
+                *Please schedule an appointment by calling or emailing us to discuss your custom pooja mandir.
+            </p>
+        </div>
+
+        <!-- Right Side: Request a Quote Form -->
+        <div class="quote-form">
+            <h2>REQUEST A QUOTE</h2>
+            <form action="submit_quote.php" method="POST">
+                <label for="name">Name: *</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                <label for="email">Email: *</label>
+                <input type="email" id="email" name="email" required placeholder="Enter email address">
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+
+                <label for="subject">Subject: *</label>
+                <input type="text" id="subject" name="subject" required placeholder="Enter subject">
+
+                <label for="collection-name">Select Collection Name:</label>
+                <select id="collection-name" name="collection-name">
+                    <option value="">-Select-</option>
+                    <option value="premium">Traditional Collection</option>
+                    <option value="classic">Classic Collection</option>
+                    <option value="custom">Custom Design</option>
+                    <option value="custom">Contemporary Collection</option>
+                </select>
+
+                <label for="collection-type">Select Collection Type:</label>
+                <select id="collection-type" name="collection-type">
+                    <option value="">-Select-</option>
+                    <option value="Plywood">Plywood</option>
+                    <option value="wood">Wood</option>
+        
+                </select>
+
+                <label for="collection-number">Select Collection Number:</label>
+                <select id="collection-number" name="collection-number">
+                    <option value="">-Select-</option>
+                    <option value="001">001</option>
+                    <option value="002">002</option>
+
+                </select>
+
+                <label for="stock-number">Enter Stock # (if applicable):</label>
+                <input type="text" id="stock-number" name="stock-number" placeholder="Enter Stock #">
+
+                <label for="message">Message: *</label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter Zip Code">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Divine Corner. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

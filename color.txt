@@ -1,0 +1,19 @@
+background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(236,253,170,1) 0%, rgba(135,247,115,1) 90% );
+background-image: url("/images/product6.jpg");
+
+ <header>
+        <nav>
+            <div class="logo">
+                <img src="images/image.jpg" alt="Logo" class="logo-icon">Divine Corner
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html">SIGN IN</a></li>
+                <li><a href="#cart">CART 🛒</a></li>
+            </ul>
+        </nav>
+    </header>

@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: seashell;
+}
+
+/* Header */
+header {
+    background-color: seashell;
+    color: brown;
+    text-align: center;
+    padding: 15px;
+    border: 0cm;
+    border-color: #E5CCBF;
+}
+
+.header-content h1 {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.header-content p {
+    font-size: 14px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Business Info Section */
+.business-info {
+    width: 35%;
+    padding: 20px;
+    background:#E5CCBF;
+}
+
+.business-info h2 {
+    margin-top: 0;
+}
+
+.business-info p {
+    margin: 5px 0;
+}
+
+.business-info a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.business-info .highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Quote Form */
+.quote-form {
+    width: 65%;
+    padding: 20px;
+}
+
+.quote-form h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.quote-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quote-form textarea {
+    height: 80px;
+}
+
+.quote-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.quote-form button:hover {
+    background-color: #e65c00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: black;
+    margin-top: 20px;
+}
+/* Navigation Bar */
+.navbar {
+    background: #E5CCBF;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    background: #ff6600;
+    border-radius: 5px;
+}
